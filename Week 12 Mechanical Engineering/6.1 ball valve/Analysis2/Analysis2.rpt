@@ -1,0 +1,196 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-60-33:spg
+Summary for Design Study "Analysis2"
+Sun Dec 12, 2021   04:43:42
+------------------------------------------------------------
+
+Run Settings
+   Memory allocation for block solver: 2048.0    
+
+Parallel Processing Status
+   Parallel task limit for current run:            6
+   Parallel task limit for current platform:      64
+   Number of processors detected automatically:    6
+
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+The rotational component of a specified constraint will have no effect 
+because the surface to which it is applied is not associated 
+with any shells.   Generate elements automatically.
+Checking the model after creating elements...
+The rotational component of a specified constraint will have no effect 
+because the surface to which it is applied is not associated 
+with any shells.No errors were found in the model.
+Creo Simulate Structure Model Summary
+
+   Principal System of Units: millimeter Kilogram Sec (mmKs)
+
+   Length:          mm
+   Mass:            kg
+   Time:            sec
+   Temperature:     C
+
+   Model Type: Three Dimensional
+
+   Points:               3459
+   Edges:               19119
+   Faces:               29000
+
+   Springs:                 0
+   Masses:                  0
+   Beams:                   0
+   Shells:                  0
+   Solids:              13341
+
+   Elements:            13341
+
+------------------------------------------------------------
+
+Standard Design Study
+
+Static Analysis "Analysis2":
+
+   Convergence Method: Single-Pass Adaptive
+   Plotting Grid:      4
+
+   Convergence Loop Log:                         (04:44:09)
+
+   >> Pass  1 <<
+         Calculating Element Equations           (04:44:48)
+            Total Number of Equations:  209959
+            Maximum Edge Order:              3
+         Solving Equations                       (04:44:51)
+         Post-Processing Solution                (04:45:01)
+         Checking Convergence                    (04:45:05)
+         Resource Check                          (04:45:08)
+            Elapsed Time     (sec):      86.14
+            CPU Time         (sec):      52.12
+            Memory Usage      (kb):    2399896
+            Wrk Dir Dsk Usage (kb):     271005
+
+   >> Pass  2 <<
+         Calculating Element Equations           (04:47:29)
+            Total Number of Equations:  223881
+            Maximum Edge Order:              6
+         Solving Equations                       (04:47:44)
+         Post-Processing Solution                (04:48:08)
+         Checking Convergence                    (04:48:12)
+         Calculating Disp and Stress Results     (04:48:14)
+
+         RMS Stress Error Estimates:
+
+         Load Set          Stress Error  % of Max Prin Str
+         ----------------  ------------  -----------------
+         LoadSet1           1.63e-04       0.2% of  9.24e-02
+
+         Resource Check                          (04:48:26)
+            Elapsed Time     (sec):     284.49
+            CPU Time         (sec):     123.78
+            Memory Usage      (kb):    2469927
+            Wrk Dir Dsk Usage (kb):     312901
+
+** Warning: Local reaction data is currently unavailable if
+            one or more constraints are specified in
+            curvilinear or local Cartesian coordinates.
+
+   Total Mass of Model:  8.793065e-01
+
+   Total Cost of Model:  0.000000e+00
+
+   Mass Moments of Inertia about WCS Origin:
+
+     Ixx:   1.14245e+03
+     Ixy: -3.17531e-06  Iyy:   5.91815e+02
+     Ixz: -4.54822e-06  Iyz: -2.67539e+02  Izz:   8.34711e+02
+
+   Principal MMOI and Principal Axes Relative to WCS Origin:
+
+            Max Prin           Mid Prin           Min Prin
+            1.14245e+03         1.00708e+03         4.19449e+02
+
+   WCS X:   1.00000e+00         1.55398e-08         7.09899e-09
+   WCS Y:   2.44857e-09       -5.41595e-01         8.40639e-01
+   WCS Z: -1.69081e-08         8.40639e-01         5.41595e-01
+
+   Center of Mass Location Relative to WCS Origin:
+                  (  1.01754e-06,   5.36057e+00,   6.76201e+00)
+
+   Mass Moments of Inertia about the Center of Mass:
+
+     Ixx:   1.07698e+03
+     Ixy:   1.62094e-06  Iyy:   5.51609e+02
+     Ixz:   1.50193e-06  Iyz: -2.35666e+02  Izz:   8.09443e+02
+
+   Principal MMOI and Principal Axes Relative to COM:
+
+            Max Prin           Mid Prin           Min Prin
+            1.07698e+03         9.49148e+02         4.11904e+02
+
+   WCS X:   1.00000e+00       -3.64074e-09       -3.24813e-09
+   WCS Y:   9.37511e-10       -5.09942e-01         8.60209e-01
+   WCS Z:   4.78815e-09         8.60209e-01         5.09942e-01
+
+   Constraint Set: ConstraintSet2: BALL_VALVE_ASSEMBLY
+
+   Load Set: LoadSet1: BALL_VALVE_ASSEMBLY
+
+      Resultant Load on Model:
+         in global X direction: -4.262653e-10
+         in global Y direction:  4.861543e-10
+         in global Z direction:  1.848083e-13
+
+      Measures:
+
+      max_beam_bending:    0.000000e+00
+      max_beam_tensile:    0.000000e+00
+      max_beam_torsion:    0.000000e+00
+      max_beam_total:      0.000000e+00
+      max_disp_mag:        6.238346e-08
+      max_disp_x:        -5.606828e-08
+      max_disp_y:        -3.829145e-08
+      max_disp_z:          1.806240e-11
+      max_prin_mag*:     -9.236049e-02
+      max_rot_mag:         0.000000e+00
+      max_rot_x:           0.000000e+00
+      max_rot_y:           0.000000e+00
+      max_rot_z:           0.000000e+00
+      max_stress_prin*:    9.197260e-02
+      max_stress_vm*:      1.595949e-01
+      max_stress_xx*:      5.933583e-02
+      max_stress_xy*:    -5.866873e-02
+      max_stress_xz*:    -7.351282e-02
+      max_stress_yy*:    -5.511833e-02
+      max_stress_yz*:      7.611646e-02
+      max_stress_zz*:    -6.006936e-03
+      min_stress_prin*:  -9.236049e-02
+      strain_energy:       6.809008e-09
+
+   ** Warning: The measures marked by an asterisk (*) were evaluated 
+   at (or close to) results singularities. The values of these  
+   measures may be inaccurate, and you must use engineering judgment 
+   when interpreting them.
+
+Analysis "Analysis2" Completed  (04:48:27)
+
+------------------------------------------------------------
+
+Memory and Disk Usage:
+
+   Machine Type: Windows 64 
+   RAM Allocation for Solver (megabytes): 2048.0
+
+   Total Elapsed Time (seconds): 285.87    
+   Total CPU Time     (seconds): 124.38    
+   Maximum Memory Usage (kilobytes): 2469927   
+   Working Directory Disk Usage (kilobytes): 312901    
+
+   Results Directory Size (kilobytes):
+   124314 \\home.org.aalto.fi\nguyenb5\data\desktop\6.1 ball valve\Analysis2
+
+------------------------------------------------------------
+Run Completed
+Sun Dec 12, 2021   04:48:28
+------------------------------------------------------------

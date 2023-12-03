@@ -1,0 +1,59 @@
+C H E C K   R E P O R T
+Assignmet B3 - Frame
+
+Created: 18-Oct-2021 15:50:10
+
+Initial values file: 12345M.xlsx
+Model file: B3_Frame.xlsx
+
+The member cannot be identifty. These nodepoints are WRONG:
+	x25 = +12.000 m	y25 = -5.000 m
+	x3 = +12.000 m	y3 = -6.000 m
+
+The member cannot be identifty. These nodepoints are WRONG:
+	x25 = +12.000 m	y25 = -5.000 m
+	x3 = +12.000 m	y3 = -6.000 m
+
+The member cannot be identifty. These nodepoints are WRONG:
+	x25 = +12.000 m	y25 = -5.000 m
+	x3 = +12.000 m	y3 = -6.000 m
+
+LEFT SUPPORT
+Support is OK.
+	Support number: 1
+	Node number: 1
+Coordinate values are OK.
+	x1 = +0.000 m	y1 = +0.000 m
+Boundary conditions are OK.
+	ux - fixed
+	uy - fixed
+	uz - fixed
+	phix - fixed
+	phiy - fixed
+	phiz - fixed
+
+RIGHT SUPPORT
+Support is OK.
+	Support number: 2
+	Node number: 4
+Coordinate values are OK.
+	x4 = +12.000 m	y4 = +0.000 m
+Boundary conditions are OK.
+	ux - fixed
+	uy - fixed
+	uz - fixed
+	phix - fixed
+	phiy - fixed
+	phiz - fixed
+
+LC1
+Loadcase is OK.
+Load name: Self-weight
+Category: Permanent
+Presence: on
+Activity: on
+Direction factors are OK.
+	x = +0.0
+	y = +1.0
+	z = +0.0
+

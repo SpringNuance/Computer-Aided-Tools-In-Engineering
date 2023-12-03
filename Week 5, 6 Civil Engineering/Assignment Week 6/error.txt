@@ -1,0 +1,29 @@
+I have run the checker on my model, which takes a quite long time (20 minutes). Then I run check.m in Matlab files
+and Matlab shows these errors
+
+formatSpec =
+
+    'The member cannot be identifty. These nodepoints are WRONG:\r\n'
+
+
+formatSpec =
+
+    'The member cannot be identifty. These nodepoints are WRONG:\r\n'
+
+
+formatSpec =
+
+    'The member cannot be identifty. These nodepoints are WRONG:\r\n'
+
+Error using tabular/dotParenReference (line 101)
+Unrecognized table row name '1,15-19'.
+
+Error in checkLoad (line 118)
+        lineNumber = model.members.lineNumber(memberNumber);        % Line number
+
+Error in checker (line 525)
+checkLoad(LC2, model, units, reportFileID);
+
+Honestly I don't know where this stems from, because theres little instructions on Week 6 Frame so I'm not sure of everything
+in my model. A teaching assistant told me, however, that my report looks fine. 
+If there's a significant error somewhere, please notify me

@@ -1,0 +1,40 @@
+#PID -1Id 471
+#ErrProAddr -1 5 570 1 647 570 
+#ErrProAddr -1 5 132 2 652 446 132 
+#ErrMsgId 471
+#ErrProAddr 1 11000 69 0 -1 
+#ErrMsgId 471
+#ErrProAddr -1 5 572 1 647 572 
+#ErrProAddr -1 5 134 2 652 446 134 
+#ErrMsgId 471
+#ErrProAddr 1 11000 69 0 -1 
+#PID 2984
+#ErrMsgId 695
+#ErrProAddr 1 11000 72 0 -1 
+#ErrMsgId 695
+#ErrProAddr 1 11000 72 0 -1 
+#ErrMsgId 89
+#ErrMsgStr
+Starting analysis Analysis2
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 1 - Analysis2
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 2 - Analysis2
+#ErrMsgEnd
+#ErrMsgId 545616195
+#ErrMsgStr
+** Warning: Local reaction data is currently unavailable if
+            one or more constraints are specified in
+            curvilinear or local Cartesian coordinates.
+
+#ErrMsgEnd
+#ErrMsgId 95
+#ErrMsgId 91
+#ErrMsgStr
+Analysis Analysis2 completed
+#ErrMsgEnd
+#ErrMsgId 92

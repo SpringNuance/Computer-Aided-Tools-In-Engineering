@@ -1,0 +1,23 @@
+proepview - Version : parametric6000 Creo 6.0.0.0 - (16.0.0.24) x86e_win64
+Copyright (C) 2000-2019 PTC Inc. All Rights Reserved.
+
+Recipe file: C:/Program Files/PTC/Creo 6.0.2.0/Common Files/text/prodview/export_pvs.rcp
+Source file: //home.org.aalto.fi/nguyenb5/data/Desktop/6.1 ball valve/ball_valve_assembly.asm.5
+Output file: C:/Users/nguyenb5/AppData/Local/Temp/tnzwo9ra/ball_valve_original.pvs
+Processing ball_valve_assembly.asm : ...
+Processing middle_frame.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing outer_frame.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing ring.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing ball_handle_assembly.asm : ...
+Processing ball.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing handle.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... ball_handle_assembly.asm : COMPLETE
+Processing screw.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... ball_valve_assembly.asm : COMPLETE
+Generating Output : COMPLETE

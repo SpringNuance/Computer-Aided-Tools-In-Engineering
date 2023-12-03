@@ -1,0 +1,292 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-60-33:spg
+Log for Design Study "Static1"
+Tue Nov 30, 2021   20:25:15
+------------------------------------------------------------
+
+Engine Command with the specified command line options:
+
+ C:\Program Files\PTC\Creo 6.0.2.0\Common Files\mech\x86e_win64\bin\msengine.exe  Static1  -i  \\home.org.aalto.fi\nguyenb5\data\desktop\support plate  -w  .  -solram  4096  -sturm  default  -nl_ldc  -num_threads  ALL  -results_io_cache_size  1024 
+
+Begin Creating Database for Design Study
+Tue Nov 30, 2021   20:25:15
+   Elapsed Time       (sec):       0.60
+   CPU Time           (sec):       0.11
+   Memory Usage        (kb):      94627
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.26
+   Step CPU Time      (sec):       0.02
+
+Begin Integrated Mode Error Checking
+Tue Nov 30, 2021   20:25:16
+   Elapsed Time       (sec):       0.86
+   CPU Time           (sec):       0.12
+   Memory Usage        (kb):      94628
+   Work Dir Disk Usage (kb):          0
+
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+
+   Step Elapsed Time  (sec):       0.38
+   Step CPU Time      (sec):       0.00
+
+Begin Generating Elements
+Tue Nov 30, 2021   20:25:16
+   Elapsed Time       (sec):       1.24
+   CPU Time           (sec):       0.12
+   Memory Usage        (kb):      94683
+   Work Dir Disk Usage (kb):          0
+
+Copying elements from an existing study model ...
+Successfully copied elements from an existing study model.
+
+
+A complete set of elements already exists.
+
+OK
+
+
+   Step Elapsed Time  (sec):       2.60
+   Step CPU Time      (sec):       2.08
+
+Begin Integrated Mode Error Checking
+Tue Nov 30, 2021   20:25:19
+   Elapsed Time       (sec):       3.84
+   CPU Time           (sec):       2.20
+   Memory Usage        (kb):     153336
+   Work Dir Disk Usage (kb):          0
+Checking the model after creating elements...
+No errors were found in the model.
+   Step Elapsed Time  (sec):       1.22
+   Step CPU Time      (sec):       0.39
+
+Begin Engine Bookkeeping
+Tue Nov 30, 2021   20:25:20
+   Elapsed Time       (sec):       5.06
+   CPU Time           (sec):       2.59
+   Memory Usage        (kb):     153336
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.80
+   Step CPU Time      (sec):       0.56
+
+Begin Analysis: "Static1"
+Tue Nov 30, 2021   20:25:21
+   Elapsed Time       (sec):       5.86
+   CPU Time           (sec):       3.16
+   Memory Usage        (kb):     174240
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       1.58
+   Step CPU Time      (sec):       0.77
+
+Begin Mass Calculation
+Tue Nov 30, 2021   20:25:22
+   Elapsed Time       (sec):       7.45
+   CPU Time           (sec):       3.92
+   Memory Usage        (kb):     192308
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       1.93
+   Step CPU Time      (sec):       0.26
+
+Begin P-Loop Pass 1
+Tue Nov 30, 2021   20:25:24
+   Elapsed Time       (sec):       9.38
+   CPU Time           (sec):       4.19
+   Memory Usage        (kb):     198010
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.74
+   Step CPU Time      (sec):       0.16
+
+Begin Element Calculations, Pass 1
+Tue Nov 30, 2021   20:25:25
+   Elapsed Time       (sec):      10.12
+   CPU Time           (sec):       4.34
+   Memory Usage        (kb):     240178
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       2.43
+   Step CPU Time      (sec):       0.78
+
+Begin Global Matrix Assembly, Pass 1
+Tue Nov 30, 2021   20:25:27
+   Elapsed Time       (sec):      12.54
+   CPU Time           (sec):       5.12
+   Memory Usage        (kb):     242319
+   Work Dir Disk Usage (kb):     140288
+
+   Step Elapsed Time  (sec):       0.39
+   Step CPU Time      (sec):       0.06
+
+Begin Equation Solve, Pass 1
+Tue Nov 30, 2021   20:25:28
+   Elapsed Time       (sec):      12.93
+   CPU Time           (sec):       5.19
+   Memory Usage        (kb):     250186
+   Work Dir Disk Usage (kb):     140288
+
+   Step Elapsed Time  (sec):       4.58
+   Step CPU Time      (sec):       7.95
+
+Begin Load Calculations
+Tue Nov 30, 2021   20:25:32
+   Elapsed Time       (sec):      17.51
+   CPU Time           (sec):      13.14
+   Memory Usage        (kb):    4272750
+   Work Dir Disk Usage (kb):     140288
+
+   Step Elapsed Time  (sec):       0.27
+   Step CPU Time      (sec):       0.13
+
+Begin Post-Processing Calculations, Pass 1
+Tue Nov 30, 2021   20:25:33
+   Elapsed Time       (sec):      17.79
+   CPU Time           (sec):      13.27
+   Memory Usage        (kb):    4272750
+   Work Dir Disk Usage (kb):     140288
+
+   Step Elapsed Time  (sec):       2.46
+   Step CPU Time      (sec):       2.30
+
+Begin Convergence Check Pass 1
+Tue Nov 30, 2021   20:25:35
+   Elapsed Time       (sec):      20.25
+   CPU Time           (sec):      15.56
+   Memory Usage        (kb):    4290953
+   Work Dir Disk Usage (kb):     140288
+
+   Step Elapsed Time  (sec):       1.28
+   Step CPU Time      (sec):       0.95
+
+Begin Strain Energy Calculations
+Tue Nov 30, 2021   20:25:36
+   Elapsed Time       (sec):      21.53
+   CPU Time           (sec):      16.51
+   Memory Usage        (kb):    4290953
+   Work Dir Disk Usage (kb):     140288
+
+   Step Elapsed Time  (sec):       0.56
+   Step CPU Time      (sec):       0.30
+
+Begin P-Loop Pass 2
+Tue Nov 30, 2021   20:25:37
+   Elapsed Time       (sec):      22.09
+   CPU Time           (sec):      16.81
+   Memory Usage        (kb):    4290953
+   Work Dir Disk Usage (kb):     140288
+
+   Step Elapsed Time  (sec):       0.51
+   Step CPU Time      (sec):       0.12
+
+Begin Element Calculations, Pass 2
+Tue Nov 30, 2021   20:25:37
+   Elapsed Time       (sec):      22.60
+   CPU Time           (sec):      16.94
+   Memory Usage        (kb):    4290953
+   Work Dir Disk Usage (kb):     140288
+
+   Step Elapsed Time  (sec):       1.89
+   Step CPU Time      (sec):       0.77
+
+Begin Global Matrix Assembly, Pass 2
+Tue Nov 30, 2021   20:25:39
+   Elapsed Time       (sec):      24.49
+   CPU Time           (sec):      17.70
+   Memory Usage        (kb):    4290953
+   Work Dir Disk Usage (kb):     153600
+
+   Step Elapsed Time  (sec):       0.12
+   Step CPU Time      (sec):       0.05
+
+Begin Equation Solve, Pass 2
+Tue Nov 30, 2021   20:25:39
+   Elapsed Time       (sec):      24.62
+   CPU Time           (sec):      17.75
+   Memory Usage        (kb):    4298312
+   Work Dir Disk Usage (kb):     153600
+
+   Step Elapsed Time  (sec):       4.32
+   Step CPU Time      (sec):       7.59
+
+Begin Load Calculations
+Tue Nov 30, 2021   20:25:44
+   Elapsed Time       (sec):      28.93
+   CPU Time           (sec):      25.34
+   Memory Usage        (kb):    4302521
+   Work Dir Disk Usage (kb):     153600
+
+   Step Elapsed Time  (sec):       0.18
+   Step CPU Time      (sec):       0.14
+
+Begin Post-Processing Calculations, Pass 2
+Tue Nov 30, 2021   20:25:44
+   Elapsed Time       (sec):      29.12
+   CPU Time           (sec):      25.48
+   Memory Usage        (kb):    4302521
+   Work Dir Disk Usage (kb):     153600
+
+   Step Elapsed Time  (sec):       2.33
+   Step CPU Time      (sec):       2.25
+
+Begin Convergence Check Pass 2
+Tue Nov 30, 2021   20:25:46
+   Elapsed Time       (sec):      31.45
+   CPU Time           (sec):      27.73
+   Memory Usage        (kb):    4304584
+   Work Dir Disk Usage (kb):     153600
+
+   Step Elapsed Time  (sec):       1.35
+   Step CPU Time      (sec):       1.03
+
+Begin Displacement and Stress Calculation
+Tue Nov 30, 2021   20:25:48
+   Elapsed Time       (sec):      32.80
+   CPU Time           (sec):      28.77
+   Memory Usage        (kb):    4305085
+   Work Dir Disk Usage (kb):     153600
+
+   Step Elapsed Time  (sec):       6.08
+   Step CPU Time      (sec):       2.34
+
+Begin Reaction Calculation
+Tue Nov 30, 2021   20:25:54
+   Elapsed Time       (sec):      38.88
+   CPU Time           (sec):      31.11
+   Memory Usage        (kb):    4328939
+   Work Dir Disk Usage (kb):     153600
+
+   Step Elapsed Time  (sec):       1.60
+   Step CPU Time      (sec):       0.44
+
+Begin Strain Energy Calculations
+Tue Nov 30, 2021   20:25:55
+   Elapsed Time       (sec):      40.48
+   CPU Time           (sec):      31.55
+   Memory Usage        (kb):    4334534
+   Work Dir Disk Usage (kb):     153600
+
+   Step Elapsed Time  (sec):       2.75
+   Step CPU Time      (sec):       0.75
+
+Completed P-Loop
+Tue Nov 30, 2021   20:25:58
+   Elapsed Time       (sec):      43.23
+   CPU Time           (sec):      32.30
+   Memory Usage        (kb):    4334534
+   Work Dir Disk Usage (kb):     153600
+
+   Step Elapsed Time  (sec):       0.67
+   Step CPU Time      (sec):       0.01
+
+Completed Analysis: Static1
+Tue Nov 30, 2021   20:25:59
+   Elapsed Time       (sec):      43.90
+   CPU Time           (sec):      32.31
+   Memory Usage        (kb):    4334534
+   Work Dir Disk Usage (kb):     153600

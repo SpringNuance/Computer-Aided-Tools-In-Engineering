@@ -1,0 +1,91 @@
+____________________________________________________________
+
+Creo Simulate AutoGEM Log File
+Copyright(c) 2013 PTC (tm) -
+All Rights Reserved
+____________________________________________________________
+
+Model Name:                   .\optimization2\support_plate
+Product Name:                 Creo Simulate Structure
+Product Version:              P-60-33:spg
+Machine:                      x86e_win64
+Creation Date:                11/30/21
+Creation Time:                21:10:01
+Author:                       UNKNOWN
+
+____________________________________________________________
+
+          AutoGEM Settings
+
+  Isolate Surface Features: 
+
+  [x] Reentrant Corners
+  [x] Point Loads
+  [x] Point Constraints
+  [x] Point Heat Loads
+  [x] Point Prescribed Temperatures
+  [x] Point Convection Conditions
+
+ ------------------------------------------
+
+  [x] Insert Points
+  [x] Create Links Where Needed
+  [x] Move or Delete Existing Points
+  [x] Modify or Delete Existing Elements
+  [ ] Detailed Fillet Modeling
+  [ ] Display AutoGEM Messages
+  [ ] Automatic Interrupt
+
+ ------------------------------------------
+
+  Shell Element Type:   Quad and Tri
+  Solid Element Type:   Brick, Wedge, Tetra
+
+  Allowable Angles (Degrees):
+    Edge    Min:   5.0  Max:  175.0
+    Face    Min:   5.0  Max:  175.0
+
+  Max Allowable Edge Turn (Degrees):  95.0
+
+  Max Allowable Aspect Ratio:  30.0
+
+____________________________________________________________
+
+Working on 1 volume(s) ...
+Pre-processing features for surface 1 of 51 ...
+Pre-processing boundary features ...
+Optimizing boundary point locations ...
+Detecting thin features on the volume ...
+Pre-processing volume features ...
+Found 6339 existing solid element(s) inside the volume.
+Creating solid elements ...
+Optimizing elements ...
+Displaying Elements ...
+
+____________________________________________________________
+
+          AutoGEM Summary
+
+  Entities Created:
+
+    Beam:         0       Edge:              446
+    Tri:          0       Face:              592
+    Quad:         0       Face-Face Link:    0
+    Tetra:      246       Edge-Face Link:    0
+    Wedge:        0
+    Brick:        0
+
+ ----------------------------------------------------
+
+  Criteria Satisfied:
+
+  Angles (Degrees):
+    Edge  Min:   7.6    Max:  161.3
+    Face  Min:   5.4    Max:  169.0
+
+  Max Aspect Ratio:  6.9
+
+  Elapsed Time:    0.3 min    CPU Time:   0.3 min
+
+____________________________________________________________
+

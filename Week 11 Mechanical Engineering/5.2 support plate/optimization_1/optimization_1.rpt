@@ -1,0 +1,70 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-60-33:spg
+Summary for Design Study "optimization_1"
+Tue Nov 30, 2021   20:20:24
+------------------------------------------------------------
+
+Run Settings
+   Memory allocation for block solver: 4096.0    
+
+Parallel Processing Status
+   Parallel task limit for current run:            6
+   Parallel task limit for current platform:      64
+   Number of processors detected automatically:    6
+
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+   Generate elements automatically.
+Checking the model after creating elements...
+No errors were found in the model.
+Creo Simulate Structure Model Summary
+
+   Principal System of Units: millimeter Newton Second (mmNs)
+
+   Length:          mm
+   Force:           N
+   Time:            sec
+   Temperature:     C
+
+   Model Type: Three Dimensional
+
+   Points:               2502
+   Edges:               12102
+   Faces:               16680
+
+   Springs:                 0
+   Masses:                  0
+   Beams:                   0
+   Shells:                  0
+   Solids:               7087
+
+   Elements:             7087
+
+------------------------------------------------------------
+
+Optimization Design Study
+
+Using Sequential Quadratic Programming Optimization
+Algorithm
+Tue Nov 30, 2021   20:20:29
+
+Goal
+   Minimize: total_mass  
+
+Limit: 1
+   Analysis: Static1
+   Load Set: LoadSet1
+   max_stress_vm <  2.5000e+02
+
+Parameter           Min. Value   Initial Value  Max. Value
+d3                           1             3             5
+d4                           1             3             5
+
+Optimization Convergence Tolerance: 1         %
+Maximum Number of Optimization Iterations: 20
+
+Begin Analysis of Goal and Limits of             (20:20:30)
+Initial Design

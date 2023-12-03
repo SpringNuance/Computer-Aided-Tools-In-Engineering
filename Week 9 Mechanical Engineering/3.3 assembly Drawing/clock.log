@@ -1,0 +1,27 @@
+proepview - Version : parametric6000 Creo 6.0.0.0 - (16.0.0.24) x86e_win64
+Copyright (C) 2000-2019 PTC Inc. All Rights Reserved.
+
+Recipe file: C:/Program Files/PTC/Creo 6.0.2.0/Common Files/text/prodview/export_pvs.rcp
+Source file: //home.org.aalto.fi/nguyenb5/data/Desktop/clock/clock.asm.12
+Output file: C:/Users/nguyenb5/AppData/Local/Temp/yyxfzrnl/clock.pvs
+Processing clock.asm : ...
+Processing face4.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing mechanism.asm : ...
+Processing mechanism.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing battery.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing knob.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... mechanism.asm : COMPLETE
+Processing prt0003.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing din439m6.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing hour_hand<hand>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing minute_hand<hand>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... clock.asm : COMPLETE
+Generating Output : COMPLETE

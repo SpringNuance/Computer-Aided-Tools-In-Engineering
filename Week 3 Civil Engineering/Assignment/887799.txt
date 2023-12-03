@@ -1,0 +1,69 @@
+Checker for AutoCAD Industrial Hall's cross section in ENG-A2001 Computer-aided tools in engineering course
+Program inspects various features of the drawing, such as dimensions and drawing tehcniques.
+Program also inspects the use of layers and monitors the number of drawing objects on certain layers
+----------------------------------------------------------------------------------------------
+Correct parameters were found
+Student ID: 887799
+----------------------------------------------------------------------------------------------
+Evaluation of the drawing below (Total points can be found at the end of the document):
+----------------------------------------------------------------------------------------------
+
+Correct template is being used 	2p
+
+	Footings:
+ -FOOTINGS layer found
+ -Right number of objects and right drawing technique is used (POLYLINE). Check if there is overlapping objects. 	1p
+ -Width of the foundations is correct 	1p 
+ -Height of the foundations is correct 	1p 
+ -Distance of the foundations in X-direction is correct 	1p  
+ -Distance of the foundations in Y-direction is correct 	1p 
+
+	Pedestals:
+ -PEDSTALS layer found
+ -There is no objects on PEDESTALS layer
+
+	Columns:
+ -STEEL COLUMNS layer found
+ -There is correct number of objects on the layer (4-8 pieces) 	1p
+ -Distance of the columns in X-direction is correct  	1p 
+ -The lines depicting the columns are cut at the steel plate joint  				1p 
+ -The lowest point of lines depicting columns are at correct level with respect to Y-axis 	1p 
+ -The width of columns is correct 	1p 
+
+	Center lines:
+ -CENTER LINES layer found
+ -Right linetype (ACAD_ISO11W100) is used in the drawing 		1p optional
+
+	Roof structure:
+ -TRUSS layer found
+ -Total height of the truss is incorrect
+ -Maximum width of the truss is incorrect (calculated according to the center lines)
+
+	Steel plates of the columns:
+ -STEEL PLATES layer found
+ -Right number of objects and right drawing tehnique is used (POLYLINE) 	1p
+ -By random inspection, the size of the steel plate is correct 	1p
+ -The steel plates of the columns are at the correct distance from each other on the X-axis 	1p
+ -The thickness of the steel plate joint is correct 	1p
+
+	Dimensions:
+ -DIMENSIONS layer found
+ -There is no objects on DIMENSIONS layer
+
+	RELATIONS:
+ -Clearance height of the hall is correct 	1p
+ -Maximum distance in the X-direction is correct 	1p
+ -Height of the drawing is incorrect. Total height is calculated from lower surface of the foundation to highest point of the truss (upper chords' intersection)
+
+	TITLES:
+ -TITLES layer found.
+
+	TEXTS:
+ -TEXTS layer found.
+
+	Layers and rasterization:
+ -There is no rasterization in the drawing
+ -Layers are correctly created 	5p
+
+	RESULTS:
+Checker's points: 24/41 points

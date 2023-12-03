@@ -1,0 +1,204 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-60-33:spg
+Summary for Design Study "optimization2"
+Tue Nov 30, 2021   21:06:21
+------------------------------------------------------------
+
+Run Settings
+   Memory allocation for block solver: 2048.0    
+
+Parallel Processing Status
+   Parallel task limit for current run:            6
+   Parallel task limit for current platform:      64
+   Number of processors detected automatically:    6
+
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+   Generate elements automatically.
+Checking the model after creating elements...
+No errors were found in the model.
+Creo Simulate Structure Model Summary
+
+   Principal System of Units: millimeter Newton Second (mmNs)
+
+   Length:          mm
+   Force:           N
+   Time:            sec
+   Temperature:     C
+
+   Model Type: Three Dimensional
+
+   Points:               2502
+   Edges:               12102
+   Faces:               16680
+
+   Springs:                 0
+   Masses:                  0
+   Beams:                   0
+   Shells:                  0
+   Solids:               7087
+
+   Elements:             7087
+
+------------------------------------------------------------
+
+Optimization Design Study
+
+Using Sequential Quadratic Programming Optimization
+Algorithm
+Tue Nov 30, 2021   21:06:25
+
+Goal
+   Minimize: total_mass  
+
+Limit: 1
+   Analysis: Static1
+   Load Set: LoadSet1
+   max_stress_vm <  2.5000e+02
+
+Parameter           Min. Value   Initial Value  Max. Value
+d3                           1             3             5
+d4                           1             3             5
+
+Optimization Convergence Tolerance: 1         %
+Maximum Number of Optimization Iterations: 20
+
+Begin Analysis of Goal and Limits of             (21:06:26)
+Initial Design
+
+------------------------------------------------------------
+
+Initial Design Status
+Parameters:
+   d3                           3
+   d4                           3
+Goal:   5.3197e-04
+Status of Optimization Limits:
+1. max_stress_vm      3.6642e+02 <   2.5000e+02 (VIOLATED)
+
+Resource Check                                   (21:08:26)
+   Elapsed Time     (sec):     125.21
+   CPU Time         (sec):      95.30
+   Memory Usage      (kb):    2462644
+   Wrk Dir Dsk Usage (kb):          3
+
+Begin Optimization Iteration 1                   (21:08:26)
+
+Result of Optimization Iteration 1
+Parameters:
+   d3                     3.40293
+   d4                     2.06376
+Goal:   5.6275e-04
+Status of Optimization Limits:
+1. max_stress_vm      2.8014e+02 <   2.5000e+02 (VIOLATED)
+
+Resource Check                                   (21:09:58)
+   Elapsed Time     (sec):     217.30
+   CPU Time         (sec):     175.47
+   Memory Usage      (kb):    2597072
+   Wrk Dir Dsk Usage (kb):          6
+
+Begin Optimization Iteration 2                   (21:09:58)
+
+Result of Optimization Iteration 2
+Parameters:
+   d3                     3.68437
+   d4                           1
+Goal:   5.7245e-04
+Status of Optimization Limits:
+1. max_stress_vm      2.6618e+02 <   2.5000e+02 (VIOLATED)
+
+Resource Check                                   (21:12:03)
+   Elapsed Time     (sec):     341.88
+   CPU Time         (sec):     297.92
+   Memory Usage      (kb):    2760057
+   Wrk Dir Dsk Usage (kb):         10
+
+Begin Optimization Iteration 3                   (21:12:03)
+
+Result of Optimization Iteration 3
+Parameters:
+   d3                     3.65099
+   d4                     1.51026
+Goal:   5.8249e-04
+Status of Optimization Limits:
+1. max_stress_vm      2.5530e+02 <   2.5000e+02 (VIOLATED)
+
+Resource Check                                   (21:13:36)
+   Elapsed Time     (sec):     435.42
+   CPU Time         (sec):     375.19
+   Memory Usage      (kb):    2912541
+   Wrk Dir Dsk Usage (kb):         13
+
+Begin Optimization Iteration 4                   (21:13:36)
+
+Result of Optimization Iteration 4
+Parameters:
+   d3                     3.70837
+   d4                      1.4467
+Goal:   5.8895e-04
+Status of Optimization Limits:
+1. max_stress_vm      2.5011e+02 <   2.5000e+02 (satisfied within tolerance)
+
+Resource Check                                   (21:15:08)
+   Elapsed Time     (sec):     527.53
+   CPU Time         (sec):     452.70
+   Memory Usage      (kb):    3057433
+   Wrk Dir Dsk Usage (kb):         16
+
+Begin Optimization Iteration 5                   (21:15:08)
+
+Result of Optimization Iteration 5
+Parameters:
+   d3                     3.71227
+   d4                     1.43209
+Goal:   5.8909e-04
+Status of Optimization Limits:
+1. max_stress_vm      2.5000e+02 <   2.5000e+02 (satisfied within tolerance)
+
+Resource Check                                   (21:16:44)
+   Elapsed Time     (sec):     623.59
+   CPU Time         (sec):     533.19
+   Memory Usage      (kb):    3186985
+   Wrk Dir Dsk Usage (kb):         20
+
+Begin Optimization Iteration 6                   (21:16:44)
+Converged to optimum design.
+
+No improvement to the initial design was found
+that does not violate any limits.
+
+Optimization study statistics:
+Number of Base Analyses: 6
+Number of Perturbation Analyses: 13
+
+------------------------------------------------------------
+
+Memory and Disk Usage:
+
+   Machine Type: Windows 64 
+   RAM Allocation for Solver (megabytes): 2048.0
+
+   Total Elapsed Time (seconds): 652.10    
+   Total CPU Time     (seconds): 558.94    
+   Maximum Memory Usage (kilobytes): 3284121   
+   Working Directory Disk Usage (kilobytes): 161809    
+   Total Elapsed Time in Parameter Updates (seconds):
+      170.50    
+   Total Engine Elapsed Time Minus Param. Updates (seconds):
+      481.60    
+   Total CPU Time in Parameter Updates (seconds):
+      140.32    
+   Total Engine CPU Time Minus Param. Updates (seconds):
+      418.62    
+
+   Results Directory Size (kilobytes):
+   118070 .\optimization2
+
+------------------------------------------------------------
+Run Completed
+Tue Nov 30, 2021   21:17:13
+------------------------------------------------------------
